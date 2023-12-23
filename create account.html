@@ -1,0 +1,123 @@
+<!DOCTYPE >
+<html>
+<head>
+    <title>
+    create your account 
+    </title>
+    <style>
+    body
+    {
+     background-color:rgb(242, 238, 239);
+    }
+    h2
+    {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: cadetblue;
+    text-align: center;
+    font-style: italic;
+    text-transform: capitalize;
+   
+    }
+    .form
+    {
+     line-height: 1.5;
+     font-weight: bold;
+     font-weight: bold;
+    }
+    .A
+    {
+        text-align: center;
+        margin: auto;
+        width: 700px;
+        height: 20px;
+        
+    }
+    .styled-button 
+    {
+    display:inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    background-color:rgb(117, 151, 176); 
+    color:black;
+    border: 2px solid bisque; 
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 635px;
+
+
+    }
+  .styled-button:hover
+   {
+    background-color: white;
+    color:lightskyblue;
+   }
+   h1
+   {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+
+   }
+  
+    </style>
+</head>
+<body>
+    <h2>Create an Account</h2>
+    <div>
+    <form class="form" method="post">
+        <div class="A">
+        <label for="username">First Name:</label>
+        <input type="text" id="username" name="fisrtname" placeholder="enter your first name"    required>
+
+        <label for="username">Last Name:</label>
+        <input type="text" id="username" name="lastname" placeholder="enter your last name"  required>
+        </div>
+        <br>
+        <br>
+         
+
+        <div class="A">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="enter your email" required>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required placeholder="Enter your mobile number">
+        </div>
+        <br>
+        <br>
+
+        <div class="A">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"  placeholder="charachter only" required>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="charachter only" required>
+        </div>
+        <br>
+        <br>
+
+         <div class="A">
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="Egypt"> Egypt</option>
+            <option value="USA">United States</option>
+            <option value="UK">United Kingdom</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="Germany">Germany</option>
+        </select>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" placeholder="enter your birthday" required>
+         </div>
+
+
+        <button class=styled-button type="submit" name="button" >Create Account</button>
+    </form>
+    </div>
+<h1> thank you </h1>
+
+</body>
+</html>
